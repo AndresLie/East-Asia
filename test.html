@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Regions by Population and Area</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #222;
+      }
+
+      .modern-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .modern-table th,
+      .modern-table td {
+        padding: 15px;
+        text-align: center;
+      }
+
+      .modern-table thead {
+        background-color: #222;
+        color: #fff;
+      }
+
+      .modern-table tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+      }
+
+      .modern-table tbody tr:nth-child(even) {
+        background-color: #fff;
+      }
+
+      .modern-table tbody tr.highlight {
+        background-color: #d4edda;
+        color: #155724;
+        font-weight: bold;
+      }
+
+      .note {
+        font-size: 0.9rem;
+        margin-top: 15px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Population Table -->
+      <h2>World Population Distribution by Region</h2>
+      <table class="modern-table">
+        <thead>
+          <tr>
+            <th>Region</th>
+            <th>Population Percentage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Africa</td>
+            <td>18.29%</td>
+          </tr>
+          <tr>
+            <td>North America</td>
+            <td>4.68%</td>
+          </tr>
+          <tr>
+            <td>Latin America and the Caribbean</td>
+            <td>8.18%</td>
+          </tr>
+          <tr>
+            <td>Asia</td>
+            <td>59.05%</td>
+          </tr>
+          <tr class="highlight">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;East Asia</td>
+            <td>20.00%</td>
+          </tr>
+          <tr>
+            <td>Europe</td>
+            <td>9.24%</td>
+          </tr>
+          <tr>
+            <td>Oceania</td>
+            <td>0.57%</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">
+        <strong>Note:</strong> East Asia makes up approximately 20% of the
+        world's population, contributing significantly to Asia's total of
+        59.05%.
+      </p>
+
+      <!-- Area Table -->
+      <h2>World Land Area Distribution by Region</h2>
+      <table class="modern-table">
+        <thead>
+          <tr>
+            <th>Region</th>
+            <th>Land Area (km²)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Africa</td>
+            <td>30,370,000</td>
+          </tr>
+          <tr>
+            <td>North America</td>
+            <td>24,709,000</td>
+          </tr>
+          <tr>
+            <td>Latin America and the Caribbean</td>
+            <td>19,197,000</td>
+          </tr>
+          <tr>
+            <td>Asia</td>
+            <td>44,579,000</td>
+          </tr>
+          <tr class="highlight">
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;East Asia</td>
+            <td>11,839,000</td>
+          </tr>
+          <tr>
+            <td>Europe</td>
+            <td>10,180,000</td>
+          </tr>
+          <tr>
+            <td>Oceania</td>
+            <td>8,525,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="note">
+        <strong>Note:</strong> East Asia's land area is approximately 11.8
+        million km², forming a significant part of Asia's total of 44.6 million
+        km².
+      </p>
+    </div>
+  </body>
+</html>

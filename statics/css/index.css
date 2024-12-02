@@ -1,0 +1,141 @@
+.carousel {
+  width: 100%;
+  height: 94vh;
+}
+.carousel-item img {
+  height: 94vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5rem 10rem;
+  border-radius: 10px;
+  width: 60vw;
+}
+header {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+#intro1 {
+  background-image: url("../../assets/Japan/index2.jpg");
+  height: 94vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content-section {
+  padding: 50px 15%;
+}
+
+#header_other {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10vh;
+}
+
+.stats-card {
+  margin-top: 40%;
+  background-color: #f8f9fa;
+  border-radius: 2rem;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.stats-card h2 {
+  font-size: 3rem;
+  margin: 20px 0;
+  color: #3498db;
+}
+.stats-card p {
+  font-size: 1.2rem;
+  color: #555;
+}
+.cuisine,
+.heritage,
+.modern {
+  margin-top: 50px;
+}
+
+.modern-table-wrapper {
+  width: 64%;
+  margin: 20px auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modern-table {
+  width: 100%; /* Matches the wrapper width */
+  border-collapse: collapse;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.modern-table th,
+.modern-table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.modern-table thead {
+  background-color: #222;
+  color: #fff;
+}
+
+.modern-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.modern-table tbody tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.modern-table tbody tr.highlight {
+  background-color: #d4edda;
+  color: #155724;
+  font-weight: bold;
+}
+
+#intro2 {
+  background-image: url("../../assets/SK/index2.jpg");
+  height: 94vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#intro3 {
+  background-image: url("../../assets/China/index2.jpg");
+  height: 94vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.note {
+  color: white;
+  font-size: 1.3rem;
+}
