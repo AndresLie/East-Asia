@@ -29,14 +29,6 @@ header {
   margin-top: 10px;
 }
 
-#intro1 {
-  background-image: url("../../assets/Japan/index2.jpg");
-  height: 94vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .content-section {
   padding: 50px 15%;
 }
@@ -49,27 +41,11 @@ header {
   margin-top: 10vh;
 }
 
-.stats-card {
-  margin-top: 40%;
-  background-color: #f8f9fa;
-  border-radius: 2rem;
-  padding: 3rem;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+#header_other + .row {
+  margin: 10vh 0;
 }
-.stats-card h2 {
-  font-size: 3rem;
-  margin: 20px 0;
-  color: #3498db;
-}
-.stats-card p {
-  font-size: 1.2rem;
-  color: #555;
-}
-.cuisine,
-.heritage,
-.modern {
+
+row.modern {
   margin-top: 50px;
 }
 
