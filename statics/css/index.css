@@ -32,7 +32,13 @@ header {
 .content-section {
   padding: 50px 15%;
 }
-
+.intro-bg {
+  height: 94vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 #header_other {
   text-align: center;
   font-size: 4rem;
@@ -91,22 +97,12 @@ row.modern {
 
 #intro2 {
   background-image: url("../../assets/SK/index2.jpg");
-  height: 94vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
 }
 
 #intro3 {
   background-image: url("../../assets/China/index2.jpg");
-  height: 94vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
 }
@@ -114,4 +110,8 @@ row.modern {
 .note {
   color: white;
   font-size: 1.3rem;
+}
+
+#intro4 {
+  background-image: url(../../assets/SK/index3.jpg);
 }
