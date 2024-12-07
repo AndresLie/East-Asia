@@ -47,14 +47,6 @@ header {
   margin-top: 10px;
 }
 
-#intro1 {
-  background-image: url("../../assets/Japan/index.jpg");
-  height: 94vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .content-section {
   padding: 50px 15%;
 }
@@ -129,28 +121,6 @@ header {
   background-color: #d4edda;
   color: #155724;
   font-weight: bold;
-}
-
-#intro2 {
-  background-image: url("../../assets/SK/index2.jpg");
-  height: 94vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#intro3 {
-  background-image: url("../../assets/China/index2.jpg");
-  height: 94vh;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .note {

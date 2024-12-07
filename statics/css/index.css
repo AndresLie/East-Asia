@@ -46,7 +46,14 @@ header {
   color: #fff;
   margin-top: 10vh;
 }
-
+#intro1 {
+  background-image: url("../../assets/Index/index.jpg");
+  height: 94vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 #header_other + .row {
   margin: 10vh 0;
 }
@@ -96,13 +103,13 @@ row.modern {
 }
 
 #intro2 {
-  background-image: url("../../assets/SK/index.jpg");
+  background-image: url("../../assets/Index/index2.jpg");
   margin: 0 auto;
   text-align: center;
 }
 
 #intro3 {
-  background-image: url("../../assets/China/index2.jpg");
+  background-image: url("../../assets/Index/index3.jpg");
   margin: 0 auto;
   text-align: center;
 }
@@ -113,5 +120,5 @@ row.modern {
 }
 
 #intro4 {
-  background-image: url("../../assets/SK/index.jpg");
+  background-image: url("../../assets/Index/index4.jpg");
 }
