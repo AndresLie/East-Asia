@@ -96,7 +96,7 @@ row.modern {
 }
 
 #intro2 {
-  background-image: url("../../assets/SK/index2.jpg");
+  background-image: url("../../assets/SK/index.jpg");
   margin: 0 auto;
   text-align: center;
 }
@@ -113,5 +113,5 @@ row.modern {
 }
 
 #intro4 {
-  background-image: url(../../assets/SK/index3.jpg);
+  background-image: url("../../assets/SK/index.jpg");
 }

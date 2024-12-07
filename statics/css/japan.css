@@ -1,0 +1,15 @@
+.section-1 {
+  background-image: url("../../assets/Japan/japan1.jpg");
+}
+
+.section-2 {
+  background-image: url("../../assets/Japan/japan2.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.section-3 {
+  background-image: url("../../assets/Japan/japan3.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}

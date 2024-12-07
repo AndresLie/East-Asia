@@ -1,0 +1,18 @@
+.section-1 {
+  background-image: url("../../assets/China/china1.jpg");
+}
+
+.section-2 {
+  background-image: url("../../assets/China/china2.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.section-3 {
+  background-image: url("../../assets/China/china3.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+.lead-landing {
+  color: white;
+}
